@@ -18,5 +18,12 @@ A typical flow might be illustrated via tests_list:
     - verify the new output and copy it to tests_list.can
     - commit the new canonical output to the repository
 
+To run all of the regression tests:
+
+    # make
+    # ./testscript.sh
+
+Then look at stdout and the file ./check_getdns.log for the results.
+
 Some of the tests that remain to be implemented:
 - memory leak testing integrated into the test progs
